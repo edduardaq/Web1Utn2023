@@ -1,0 +1,26 @@
+td.mate, th.mate{
+    background-color: red;
+}
+
+td.fisica, th.fisica{
+    background-color: rgb(250, 202, 250);
+}
+
+td.lengua, th.lengua{
+    background-color: brown;
+}
+
+td.informatica, th.informatica{
+    background-color: yellow;
+}
+td.recreo, th.recreo{
+    background-color: green;
+}
+
+td.aprov, th.aprov{
+    background-color: green;
+}
+
+td.suspendido, th.suspendido{
+    background-color: red;
+}
