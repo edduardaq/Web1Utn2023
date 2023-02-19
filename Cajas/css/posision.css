@@ -1,0 +1,67 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: solid;
+}
+
+#div1{
+    background-color: aquamarine;
+    border-radius: 80%;
+    
+    background-image: url("/Cajas/image/mono2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 13%;
+}
+
+#div2{
+    background-color: rgb(12, 252, 172);
+    width: 80%;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+#div3{
+    background-color: rgb(212, 112, 12);
+    position: absolute;
+    top: 2230px;
+
+
+}
+#div4{
+    background-color: rgb(12, 14, 82);
+    position: relative;
+    width: 35px;
+    left: 800px;
+}
+
+#div2, #div1{
+    display: inline-block;
+}
+
+#div3, #div4{
+    width: 700px;
+    margin: 2px;
+}
+
+#div5{
+    background-color: blueviolet;
+    width: 300px;
+
+}
+#div6{
+    background-color: rgb(147, 141, 152);
+    width: 40px;
+    position: fixed;
+    bottom: 300px;
+}
+
+#div6 img{
+    width: 35px;
+    height: 35px;
+}
+#div6 img:hover{
+    width: 50px;
+    height: 40px;
+}
