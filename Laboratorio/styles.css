@@ -1,0 +1,16 @@
+.Body{
+    background: linear-gradient(to right, rgb(38, 195, 132) 50%, rgb(227, 223, 223) 50%);
+}
+
+.hearder{
+    color: aliceblue;
+}
+
+.Bton{ 
+    background-color: rgb(38, 195, 132);
+}
+
+.Bton:hover{
+    background-color: black;
+}
+

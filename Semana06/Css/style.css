@@ -1,0 +1,23 @@
+.nav {
+    background-color: aquamarine;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav li{
+    
+    display: inline;
+    border-right: 4px b;
+    padding: 0px 10px;
+    color: black;
+}
+
+ul.nav li a{
+    text-decoration: none;
+color: inherit;
+}
+
+.ParrafoClass2{
+    background-color: rgb(43, 200, 61);
+}
