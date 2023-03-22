@@ -1,0 +1,10 @@
+.degradado{
+    background: rgb(245,192,139);
+background: linear-gradient(90deg, rgba(245,192,139,1) 36%, rgba(255,0,121,1) 82%);
+}
+
+.lupahp{
+    position: absolute;
+    top: 6px;
+    left: 500px;
+}
