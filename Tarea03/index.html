@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Tarea03/Css/index.css">
+    <title>Tarea JS 03</title>
+
+</head>
+
+<body>
+    <button title="Comprobamos si un número que introduzca el usuario es par o impar" onclick="parImpar()" class="buton">Comprobar si un número es par o impar</button>
+    <button title="En una cadena de texto que escribe el usuario nos dice si en esta se compone unicamente de mayusculas o minusculas o si está compuesta por ambas" onclick="tipoCadena()" class="buton">Determinar si una cadena está formada sólo por mayúsculas, sólo por minúsculas o por
+        una mezcla de ambas</button>
+    <button title="En una cadena de texto esta función nos dice si es palindromo o no" onclick="palindromo()" class="buton">Comprobar si una cadena es un palíndromo</button>
+
+    <script type="text/javascript">
+        function parImpar() {
+            let num = prompt("Introduce un número entero:");
+            if (num % 2 === 0) {
+                alert(num + " es par.");
+            } else {
+                alert(num + " es impar.");
+            }
+        }
+
+        function tipoCadena() {
+            let cadena = prompt("Introduce una cadena de texto:");
+            if (cadena === cadena.toUpperCase()) {
+                alert("La cadena está formada sólo por mayúsculas.");
+            } else if (cadena === cadena.toLowerCase()) {
+                alert("La cadena está formada sólo por minúsculas.");
+            } else {
+                alert("La cadena está formada por una mezcla de mayúsculas y minúsculas.");
+            }
+        }
+
+        function palindromo() {
+            let cadena = prompt("Introduce una cadena de texto:");
+            cadena = cadena.toLowerCase().replace(/[\W_]/g, ''); // Eliminar espacios y caracteres especiales
+            let reverseCadena = cadena.split('').reverse().join('');
+            if (cadena === reverseCadena) {
+                alert("La cadena es un palíndromo.");
+            } else {
+                alert("La cadena no es un palíndromo.");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

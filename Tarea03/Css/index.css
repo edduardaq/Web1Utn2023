@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.buton{
+    background-color: rgb(80, 214, 216);
+    height: 80px;
+    width: 330px;
+    margin: 05px;
+    font-size: 15px;
+    border: 5px;
+    border-radius: 25px;
+
+}
