@@ -1,5 +1,5 @@
 {
-   "name": "WebUtn",
+   "name": "apiUtn",
    "version": "0.0.1",
    "description": "Awesome project developed with TypeORM.",
    "type": "commonjs",
@@ -11,11 +11,10 @@
       "@types/node": "^16.18.34",
       "ts-node": "10.7.0",
       "ts-node-dev": "^2.0.0",
-      "typescript": "^4.5.2"
+      "typescript": "^5.0.4"
    },
    "dependencies": {
       "bcryptjs": "^2.4.3",
-      "body-parse": "^0.1.0",
       "body-parser": "^1.20.2",
       "class-validator": "^0.14.0",
       "cors": "^2.8.5",
