@@ -1,8 +1,11 @@
 import { Router } from "express";
-import ProdcutosControler from "../controller/productosControler";
+import ProductosController from "../controller/ProductosController";
 
-const routes = Router();
+const routes= Router();
 
-routes.get('', ProdcutosControler.getALL);
-routes.post('',ProdcutosControler.add)
+routes.get('', ProductosController.getAll);
+routes.get('/getById/:id', ProductosController.getById);
+routes.post('',ProductosController.add);
+
+
 export default routes;
